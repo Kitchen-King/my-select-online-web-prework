@@ -17,7 +17,7 @@ select_array = []
   collected_array
   while i < collected_array.length
     if collected_array[i] == true
-     select_array << "#{array[i]}"
+     select_array << array[i]
     end
   i = i + 1
   end
